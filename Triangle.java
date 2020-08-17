@@ -13,4 +13,8 @@ public class Triangle{
         this.sideLen2 = sideLen2;
         this.sideLen3 = sideLen3;
     }
+
+    public double findArea(){
+        return (this.base * this.height) / 2;
+    }
 }
